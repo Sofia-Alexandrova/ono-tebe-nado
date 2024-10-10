@@ -56,6 +56,7 @@
   .header__address {
     font-size: 18px;
     font-style: normal; 
+    
     justify-self: flex-end; 
     line-height: 135%;
     padding-right: 84px;
@@ -80,6 +81,7 @@
 
 
   .cover__title {
+    
     color: white;
     font-size: 100px; 
     font-weight: 700;
@@ -91,7 +93,8 @@
     z-index: 1; 
   }
 
-
+  
+  
   .aligned-text {
     display: block;   
     line-height: 115px; 
@@ -223,7 +226,7 @@
     text-transform: uppercase;
     text-underline-offset: 3px;
     z-index: 1; 
-}
+  }
 
 .card__text {
     bottom: 0;
@@ -264,10 +267,12 @@
     width: 240px; 
   }
 
+
   
   .about__logo-image {
     padding: 64px 45px 62px 46px;
   }
+
   
 
   .about__title {
@@ -307,20 +312,22 @@
 
 
   .footer__menu {
-    justify-self: center;
+    justify-self: center; 
   }
+
    
 
-  .footer__menu-list { 
+  .footer__menu-list {
     display: flex;
     flex-direction: column;  
     font-size: 18px;
     justify-content: center;
-	list-style-type: none;  
+	  list-style-type: none;  
     text-align: center; 
   }
 
-.footer__menu-list-item {
+
+  .footer__menu-list-item {
     align-content: center;
   }
 
